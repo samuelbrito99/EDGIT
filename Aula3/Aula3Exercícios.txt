@@ -1,0 +1,37 @@
+1. Operador ternário – Determinar posição relativa
+Receba três valores inteiros distintos e determine, usando apenas o operador ternário, se o segundo valor está entre o primeiro e o terceiro. Exiba "Sim" ou "Não".
+
+2. Operador ternário – Prioridade de atendimento
+Receba a idade e a condição de saúde (0 = normal, 1 = risco) de um paciente e use um único operador ternário aninhado para definir se sua prioridade é "Alta", "Média" ou "Baixa".
+
+3. while – Validação de entrada
+Solicite ao usuário um número positivo par.
+Use um laço while para insistir na leitura até que a condição seja atendida.
+Ao final, exiba o número válido.
+
+4. while – Busca de valor em sequência
+Gere uma sequência de números inteiros pseudoaleatórios entre 0 e 20. Continue gerando (while) até encontrar o valor 13. Mostre quantas tentativas foram necessárias.
+
+5. for – Geração de série numérica
+Use um for para gerar e imprimir os N primeiros termos da sequência de Fibonacci, onde N é informado pelo usuário.
+
+6. for – Contagem condicional
+Dada uma série de M valores inteiros informados pelo usuário, use um for para contar quantos são positivos múltiplos de 3 e quantos são negativos múltiplos de 5.
+
+7. if – Classificação de triângulo
+Leia três comprimentos de lados e use if encadeado para determinar se formam um triângulo e, em caso afirmativo, se é equilátero, isósceles ou escaleno.
+
+8. if – Ajuste de notas
+Receba a nota final de um aluno (0–100). Se estiver a menos de 3 pontos do próximo múltiplo de 5, arredonde-a para esse múltiplo, mas somente se o resultado for maior ou igual a 40. Imprima a nota ajustada.
+
+9. switch – Conversão de bases
+Receba um número inteiro decimal e um código de conversão:
+1 = binário, 2 = octal, 3 = hexadecimal.
+Use switch para decidir qual conversão fazer e exiba o resultado.
+
+10. switch – Menu interativo
+Implemente um menu com opções para:
+1 – Calcular o fatorial de um número.
+2 – Verificar se um número é primo.
+3 – Sair.
+O programa deve repetir (while) até a opção 3 ser escolhida.
