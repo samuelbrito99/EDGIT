@@ -1,0 +1,29 @@
+Conversão de temperatura
+Escreva uma função que receba a temperatura em graus Celsius (por valor) e retorne o valor convertido para Fahrenheit.
+
+Dobro de um número
+Crie uma função int dobro(int n) que receba um número inteiro (por valor) e retorne o seu dobro. No main, teste a função com diferentes entradas.
+
+Maior entre dois números
+Implemente uma função que receba dois inteiros (por valor) e retorne o maior deles.
+
+Fatorial
+Desenvolva uma função long long fatorial(int n) que receba um número inteiro positivo e retorne o seu fatorial.
+
+Área de círculo
+Escreva uma função que receba o raio de um círculo (por valor) e retorne sua área. Use #define PI 3.14159.
+
+Troca de valores sem ponteiros
+Crie uma função que receba dois inteiros (por valor) e troque seus valores dentro da função. Mostre no main que, por serem passados por valor, as variáveis originais não são alteradas.
+
+Contagem de dígitos
+Implemente uma função que receba um número inteiro (por valor) e retorne quantos dígitos ele possui.
+
+Verificação de primo
+Escreva uma função int ehPrimo(int n) que receba um número e retorne 1 se for primo ou 0 caso contrário.
+
+Potenciação
+Crie uma função que receba a base e o expoente (por valor) e retorne o resultado de base^expoente usando apenas multiplicações.
+
+Velocidade média
+Desenvolva uma função que receba a distância (em km) e o tempo (em horas), ambos por valor, e retorne a velocidade média.
