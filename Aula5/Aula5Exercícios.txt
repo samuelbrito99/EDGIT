@@ -1,0 +1,39 @@
+1) Escreva uma função que utilize uma variável global para contar quantas vezes foi chamada.
+
+2) Crie uma função imprime() que use uma variável estática para contar quantas vezes foi executada, exibindo esse valor a cada chamada.
+
+3) Escreva uma função que calcule o fatorial de um número usando recursão.
+
+4) Crie uma macro MAX(a,b) que retorne o maior entre dois valores. Teste no main.
+
+5) Crie uma macro MIN(a,b) que retorne o menor entre dois valores. Teste no main.
+
+6) Defina uma macro QUADRADO(x) que calcule o quadrado de um número. Teste com diferentes valores.
+
+7) Escreva uma macro CUBO(x) para calcular o cubo de um número. Mostre no main o uso com pelo menos três exemplos.
+
+8) Crie uma função recursiva que calcule a soma dos números de 1 até n.
+
+9) Escreva uma função recursiva que imprima todos os números de n até 1.
+
+10) Crie uma função que receba um inteiro e retorne se é par ou ímpar, usando operador ternário.
+
+11) Implemente uma função que use variável global para armazenar a última entrada fornecida pelo usuário.
+
+12) Faça uma função recursiva que calcule o n-ésimo número da sequência de Fibonacci.
+
+13) Crie uma macro F(x) = (x*x + 2*x + 1). Teste no main com diferentes valores.
+
+14) Escreva uma função recursiva que conte quantos dígitos tem um número inteiro positivo.
+
+15) Crie uma função imprimeMensagem() que use variável estática para exibir quantas vezes a mensagem já foi exibida.
+
+16) Implemente uma função que calcule o máximo divisor comum (MDC) de dois números usando recursão.
+
+17) Escreva um programa que use uma variável global para acumular a soma de todos os números lidos.
+
+18) Crie uma macro MEDIA(a,b) que retorne a média aritmética de dois números.
+
+19) Escreva uma função que receba um número inteiro positivo e retorne a soma de seus dígitos usando recursão.
+
+20) Implemente um programa que combine macros e funções: use uma macro MAX para encontrar o maior de dois números e depois passe o resultado para uma função que calcule o fatorial.
