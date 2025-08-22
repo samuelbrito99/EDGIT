@@ -1,0 +1,130 @@
+Questões Conceituais (1–10)
+
+1) O que ocorre se você tentar acessar v[n] em um vetor alocado dinamicamente com malloc(n*sizeof(float))?
+
+a) Retorna zero.
+b) Acessa memória inválida (comportamento indefinido).
+c) Gera erro de compilação.
+d) Automaticamente realoca memória.
+
+2) Qual a principal diferença entre malloc() e calloc()?
+
+a) malloc() inicializa os valores com zero, calloc() não.
+b) calloc() inicializa com zero, malloc() não.
+c) calloc() não aloca memória, apenas organiza ponteiros.
+d) Ambas fazem exatamente o mesmo.
+
+3) Qual é a saída para este trecho?
+
+int *p = malloc(5 * sizeof(int));
+printf("%d", p[0]);
+
+
+Assumindo que não houve erro na alocação.
+a) Imprime 0.
+b) Imprime lixo de memória.
+c) Erro de compilação.
+d) Gera segmentation fault.
+
+4) Por que devemos usar free() após usar malloc()?
+a) Para liberar memória e evitar vazamento (memory leak).
+b) Para otimizar o uso do processador.
+c) Para evitar erros de compilação.
+d) Porque o malloc() só reserva temporariamente.
+
+5) Qual comando é correto para realocar memória de um vetor float* v para dobrar seu tamanho atual n?
+a) v = realloc(v, n*2);
+b) v = realloc(v, n*2*sizeof(float));
+c) realloc(v, n*2*sizeof(float));
+d) v = malloc(n*2*sizeof(float));
+
+6) O que acontece se realloc() não conseguir alocar a nova memória?
+a) Retorna NULL sem liberar a memória original.
+b) Retorna NULL e libera a memória original.
+c) Lança exceção automaticamente.
+d) Realiza alocação parcial.
+
+7)Em qual cenário é recomendável usar alocação dinâmica em vez de vetor estático?
+a) Quando o tamanho do vetor é conhecido em tempo de compilação.
+b) Quando precisamos alterar o tamanho do vetor em tempo de execução.
+c) Quando o vetor sempre terá poucos elementos.
+d) Nunca é recomendável.
+
+8) Dado:
+
+float *v = malloc(10 * sizeof(float));
+free(v);
+free(v);
+
+O que ocorre?
+
+a) Nada acontece.
+b) Gera erro de compilação.
+c) Comportamento indefinido.
+d) O programa é encerrado com erro controlado.
+
+9) O que significa float *v = (float*)malloc(n * sizeof(float));?
+a) Aloca n bytes.
+b) Aloca n * sizeof(float) bytes.
+c) Aloca memória mas não retorna ponteiro.
+d) Não é necessário usar (float*) em C.
+
+10) Por que é uma má prática fazer:
+
+float *v;
+for(int i = 0; i < 10; i++)
+    v[i] = 0;
+
+
+Sem usar malloc() antes?
+a) Porque malloc() é obrigatório por padrão.
+b) Porque v não aponta para memória válida.
+c) Porque arrays não suportam atribuições dentro de loops.
+d) Porque malloc() inicializa automaticamente com zero.
+
+Questões Práticas (11–20)
+
+11) Maior e Menor Valor
+Implemente um programa que:
+Lê n números inteiros.
+Armazena em um vetor alocado dinamicamente.
+Determina e exibe o maior e o menor valor do vetor.
+Usa funções separadas para calcular cada um.
+Libera a memória.
+
+12) Média e Contagem
+Escreva um programa que:
+Lê n números reais.
+Calcula a média desses números.
+Conta quantos valores estão acima da média.
+Exibe a contagem e libera a memória.
+
+13) Cópia de Vetor
+Crie um programa que:
+Lê n números inteiros.
+Aloca um vetor dinâmico e armazena os valores.
+Cria um segundo vetor dinâmico, copiando os elementos do primeiro.
+Exibe os dois vetores para comparação.
+Libera ambos os vetores.
+
+14) Produto Escalar
+Implemente um programa que:
+Lê um número n.
+Aloca dois vetores dinâmicos de números reais, cada um com n posições.
+Lê os valores para os dois vetores.
+Calcula o produto escalar (soma dos produtos correspondentes).
+Exibe o resultado e libera a memória.
+
+15) Intercalação de Dois Vetores
+Faça um programa que:
+Lê dois valores n1 e n2.
+Aloca dois vetores dinâmicos de inteiros com tamanhos n1 e n2.
+Lê os valores para ambos.
+Cria um terceiro vetor dinâmico com a intercalação dos dois vetores (elementos alternados, completando com o restante do maior vetor).
+Exibe o vetor resultante e libera toda a memória.
+
+16) Escreva uma função que receba um vetor dinâmico de inteiros e o seu tamanho, e retorne um novo vetor com os elementos em ordem inversa.
+
+17) Faça uma função somaVetores que recebe dois vetores alocados dinamicamente e retorna um novo vetor com a soma elemento a elemento.
+
+18) Desenvolva um programa que lê um vetor de n números reais e cria um novo vetor dinâmico apenas com valores positivos.
