@@ -1,0 +1,54 @@
+Questões Conceituais (1–7)
+
+1) Explique a diferença entre declarar uma matriz estática em C (float mat[3][2];)
+e criar uma matriz com alocação dinâmica (float** mat = ...).
+
+2) Por que usamos float** mat = malloc(linhas * sizeof(float*));
+ao criar uma matriz dinâmica?
+
+3) No código dado, o que acontece se esquecer de alocar mat[i] = malloc(colunas * sizeof(float));
+dentro do loop?
+
+4) O que significa a expressão matriz[i][j] no caso de uma matriz alocada dinamicamente?
+
+5) Qual a importância de liberar a memória de uma matriz dinâmica?
+Mostre como liberar corretamente a memória de mat.
+
+6) Qual a consequência de liberar apenas free(mat); sem liberar cada mat[i] antes?
+
+7) Qual é a vantagem de usar uma função como matriz_cria() em vez de alocar a matriz diretamente no main?
+
+Questões Práticas (8–15)
+
+8) Implemente uma função matriz_libera(float** mat, int linhas) que libera
+corretamente toda a memória da matriz.
+
+9) Modifique a função matriz_cria para inicializar todos os elementos da matriz com 0.0.
+
+10) Escreva uma função matriz_leitura(float** mat, int linhas, int colunas) que lê valores
+digitados pelo usuário e preenche a matriz.
+
+11) Crie uma função matriz_transposta(float** mat, int linhas, int colunas) que retorna
+uma nova matriz (dinâmica) com a transposta da matriz original.
+
+12) Implemente uma função matriz_soma(float** A, float** B, int linhas, int colunas)
+que retorna uma nova matriz resultante da soma A + B.
+
+13) Faça uma função matriz_mult_escalar(float** A, int linhas, int colunas, float k)
+que multiplica todos os elementos da matriz por um escalar k.
+
+14) Crie uma função matriz_multiplica(float** A, int l1, int c1, float** B, int l2, int c2)
+que calcula o produto de duas matrizes (se possível). Retorne NULL caso as dimensões sejam 
+incompatíveis.
+
+15) Escreva um programa que:
+
+a) Pergunta ao usuário o número de linhas e colunas.
+
+b) Cria uma matriz dinâmica usando matriz_cria.
+
+c) Preenche a matriz com valores aleatórios entre 0 e 9.
+
+d) Imprime a matriz na tela.
+
+e) Libera a memória antes de encerrar.
