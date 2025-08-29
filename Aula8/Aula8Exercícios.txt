@@ -1,0 +1,52 @@
+Questões Conceituais
+
+1) Qual a diferença entre uma string em C e um char isolado?
+
+2) Por que as strings em C são terminadas com o caractere '\0'?
+
+3) O que acontece se esquecermos de colocar o '\0' no final de um vetor de char?
+
+4) Considerando o arquivo "Aula8_conversao_maisculo_minusculo.c".
+No código scanf(" %80[^\n]", cidade);, explique o significado de:
+
+a) %80[^\n]
+
+b) o espaço antes do %.
+
+c) O que imprime o programa se o usuário digitar a palavra Aracati?
+
+d) No trecho:
+
+if('0' <= c && c <= '9')
+    return 1;
+
+
+O que está sendo verificado?
+
+e) Pesquise para que serve as funções do módulo <ctype.h>, especificamente as funções tolower e toupper?
+
+f) O que acontece se chamarmos maiusculo('!')?
+
+g) Se a string cidade tiver 80 caracteres, o que acontece quando o usuário digitar mais que isso?
+
+h) Diferencie os usos de char cidade[81]; e char* cidade = malloc(81*sizeof(char));.
+
+Questões Práticas
+
+5) Escreva uma função int conta_digitos(char* string) que retorna quantos caracteres da string são dígitos de 0 a 9.
+
+6) Crie uma função int conta_vogais(char* string) que retorna quantas vogais existem em uma string.
+
+7) Implemente uma função void inverte_string(char* string) que inverte os caracteres da string no próprio vetor.
+
+8) Escreva um programa que leia uma string e informe se ela é um palíndromo (ex: “arara”, “radar”).
+
+9) Crie uma função void remove_espacos(char* string) que elimina todos os espaços em branco de uma string.
+
+10) Crie um programa para perguntar o nome de três cidades e imprimir qual tem mais caracteres.
+
+11) Escreva uma função int compara_strings(char* s1, char* s2) que retorna 1 se as strings são iguais e 0 caso contrário (sem usar strcmp).
+
+12) Implemente uma função void concatena(char* destino, char* origem) que adiciona origem ao final de destino (sem usar strcat).
+
+13) Escreva uma função int conta_palavras(char* string) que retorna o número de palavras em uma frase, considerando palavras separadas por espaço.
