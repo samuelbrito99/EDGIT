@@ -1,0 +1,32 @@
+Lista de Exercícios – Cadeia de Caracteres em C (20 questões)
+
+Parte 1 – Conceituais (1–7)
+1. Explique a diferença entre uma cadeia de caracteres constante (ex: "Raimundo") e um vetor de caracteres (ex: char nome[] = "Raimundo";).
+2. Por que precisamos reservar +1 posição ao alocar memória para armazenar uma string?
+3. Qual a diferença entre strlen(s) da biblioteca <string.h> e a função comprimento(char* s) do código fornecido?
+4. No código:
+   char* nome = "Seu nome aqui...";
+   nome[0] = 'X';
+   O que acontece e por quê?
+5. Explique o funcionamento da função copia_string. O que aconteceria se esquecêssemos de colocar string_destino[i] = '\0';?
+6. Diferencie os usos de scanf(" %80[^\n]", buffer_nome) e scanf("%s", buffer_nome).
+7. Por que é arriscado trabalhar com strings em C sem checar limites de tamanho (buffer overflow)? Dê um exemplo prático.
+
+Parte 2 – Práticas Básicas (8–14)
+8. Implemente uma função int compara(char* s1, char* s2) que retorna 1 se as strings são iguais e 0 caso contrário (sem usar strcmp).
+9. Crie uma função void concatena(char* destino, char* origem) que adiciona a string origem ao final de destino (sem usar strcat).
+10. Implemente uma função char* duplica(char* s) que retorna uma nova string alocada dinamicamente contendo uma cópia da string s.
+11. Escreva uma função int conta_caractere(char* s, char c) que retorna quantas vezes o caractere c aparece na string s.
+12. Crie uma função void inverte(char* s) que inverte a string s no próprio vetor.
+13. Faça uma função int eh_palindromo(char* s) que retorna 1 se a string for palíndromo (ex: “arara”, “radar”).
+14. Implemente uma função void remove_espacos(char* s) que elimina todos os espaços de uma string.
+
+Parte 3 – Práticas Avançadas (15–20)
+15. Escreva uma função char* substring(char* s, int inicio, int tamanho) que retorna uma nova string contendo parte da original.
+16. Crie uma função void para_maiusculas(char* s) que converte todos os caracteres minúsculos em maiúsculos.
+17. Escreva uma função void para_minusculas(char* s) que converte todos os caracteres maiúsculos em minúsculos.
+18. Implemente uma função int conta_palavras(char* s) que retorna quantas palavras existem em uma frase (palavras separadas por espaço).
+19. Crie um programa que leia dois nomes e exiba:
+   - qual é maior em comprimento;
+   - qual é lexicograficamente menor.
+20. Escreva uma função char* intercala(char* s1, char* s2) que retorna uma nova string formada pela intercalação caractere a caractere de s1 e s2.
