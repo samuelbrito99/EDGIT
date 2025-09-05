@@ -1,0 +1,25 @@
+Lista de Exercícios – Vetor de Ponteiros para char em C
+
+Parte 1 – Questões Conceituais (10)
+1. Explique a diferença entre usar char nomes[5][20] e char* nomes[5] para armazenar um conjunto de strings.
+2. O que acontece se atribuirmos diretamente nomes[0] = "João"; em um vetor de ponteiros para char?
+3. Qual a diferença entre char* s = "texto"; e char s[] = "texto";?
+4. Em um vetor de ponteiros para char, por que é necessário alocar memória dinamicamente caso queiramos modificar as strings?
+5. Explique a diferença entre char** argv (como em main) e char* argv[].
+6. O que ocorre se tentarmos modificar um caractere de uma string literal, por exemplo: char* s = "Oi"; s[0] = 'A';?
+7. Qual a vantagem de usar vetor de ponteiros para char em vez de um array bidimensional fixo para armazenar strings?
+8. O que significa nomes[i][j] em um vetor de ponteiros para char?
+9. Em termos de memória, por que um vetor de ponteiros para char pode ser mais flexível que char nomes[100][100]?
+10. Qual a diferença entre liberar memória de um vetor de ponteiros para char alocados dinamicamente e liberar um array de strings estático?
+
+Parte 2 – Questões Práticas (10)
+11. Escreva um programa que declare um vetor de ponteiros para char contendo 5 nomes fixos e os imprima na tela.
+12. Implemente uma função void imprime_strings(char* v[], int n) que imprime todas as strings de um vetor de ponteiros.
+13. Crie uma função int maior_comprimento(char* v[], int n) que retorne o tamanho da maior string no vetor.
+14. Escreva um programa que leia n nomes do teclado, armazene cada um em memória alocada dinamicamente e depois imprima todos.
+15. Implemente uma função void libera_strings(char* v[], int n) que libera corretamente a memória de um vetor de strings alocadas dinamicamente.
+16. Crie uma função void ordena_strings(char* v[], int n) que ordena as strings em ordem alfabética (sem usar qsort).
+17. Escreva uma função char* maior_string(char* v[], int n) que retorna o ponteiro para a maior string do vetor.
+18. Implemente uma função int busca_string(char* v[], int n, char* alvo) que retorna a posição de uma string no vetor, ou -1 se não encontrar.
+19. Crie um programa que receba nomes completos de pessoas e imprima apenas o primeiro nome de cada uma.
+20. Escreva uma função void concatena_strings(char* destino, char* v[], int n) que concatena todas as strings de um vetor em uma única string destino.
