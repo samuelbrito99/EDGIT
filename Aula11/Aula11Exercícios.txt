@@ -1,0 +1,22 @@
+Lista de Exercícios - Estruturas em C (Ponto e Linha)
+
+1. Crie uma função que leia um ponto do plano cartesiano e retorne a estrutura preenchida.
+2. Implemente uma função que calcule a distância entre dois pontos.
+3. Escreva uma função que receba uma linha (dois pontos) e calcule seu comprimento.
+4. Modifique o programa para ler N pontos de um vetor de estruturas Ponto e imprimir todos.
+5. Crie uma função que calcule o ponto médio entre dois pontos.
+6. Desenvolva uma função que, dada uma linha, retorne o ponto central dela.
+7. Faça uma função que verifique se dois pontos são iguais.
+8. Crie um programa que leia duas linhas e determine se elas compartilham algum ponto em comum.
+9. Implemente uma função que calcule a inclinação (coeficiente angular) de uma linha.
+10. Escreva um programa que leia três pontos e verifique se eles estão alinhados.
+11. Crie uma função que dado um ponto e uma linha, determine se o ponto pertence à linha.
+12. Faça um programa que armazene em um vetor 5 linhas e imprima o comprimento de cada uma.
+13. Implemente uma função que troque as coordenadas x e y de um ponto (espelhamento na reta y=x).
+14. Crie uma função que desloque um ponto no plano, somando valores dx e dy às suas coordenadas.
+15. Faça um programa que leia dois pontos e imprima a equação da reta que passa por eles.
+16. Crie uma função que, dada uma linha, imprima todos os pontos com coordenadas inteiras no intervalo entre p_ini e p_fim (supondo que sejam próximos).
+17. Implemente uma função que calcule a área de um triângulo dado por três pontos.
+18. Escreva uma função que determine se uma linha é vertical, horizontal ou inclinada.
+19. Faça um programa que leia N linhas e determine qual delas é a maior em comprimento.
+20. Crie uma função que, dado um ponto, verifique em qual quadrante do plano cartesiano ele está.
