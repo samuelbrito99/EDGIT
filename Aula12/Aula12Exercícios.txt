@@ -1,0 +1,2 @@
+1) Implemente um vetor de ponteiros para estruturas conforme está na página 107
+do livro. Priorize entender e, só então, replicar as funções, testando ao final.
