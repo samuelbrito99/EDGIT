@@ -1,0 +1,3 @@
+1) Implemente completamente a TAD_Ponto e a TAD_Circulo de acordo
+com o que está especificado no livro. Faça uso dela
+no arquivo main.c.
