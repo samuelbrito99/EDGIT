@@ -1,0 +1,21 @@
+Tema: Listas Simplesmente Encadeadas
+
+1. Crie uma função que insira elementos no final da lista (lst_insere_fim) e utilize-a para inserir os valores 5, 6 e 7 na lista já existente.
+
+2. Implemente a função lst_remove(Lista* l, int v) que remove da lista o primeiro nó que contém o valor v. Teste removendo os valores 2 e 4.
+
+3. Escreva uma função lst_tamanho(Lista* l) que retorne a quantidade de elementos da lista. Teste-a com a lista atual.
+
+4. Implemente a função lst_libera(Lista* l) que libera toda a memória alocada pela lista. Teste-a ao final do programa para evitar vazamento de memória.
+
+5. Modifique a função lst_insere para que os elementos sejam inseridos em ordem crescente automaticamente (lista ordenada).
+
+6. Crie a função lst_maior(Lista* l) que retorne o maior valor presente na lista. Teste-a com diferentes conjuntos de dados.
+
+7. Desenvolva a função lst_inverte(Lista* l) que retorne uma nova lista com a ordem dos elementos invertida.
+
+8. Implemente uma função lst_concatena(Lista* l1, Lista* l2) que una duas listas encadeadas em uma só. Teste concatenando duas listas distintas.
+
+9. Crie uma função lst_iguais(Lista* l1, Lista* l2) que verifique se duas listas são iguais (mesmo tamanho e mesmos elementos na mesma ordem).
+
+10. Elabore a função lst_intercala(Lista* l1, Lista* l2) que crie uma nova lista intercalando os elementos de l1 e l2.
