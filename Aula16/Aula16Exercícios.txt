@@ -1,0 +1,31 @@
+Aula 16 - Lista de Exercícios
+Tema: Listas Simplesmente Encadeadas em C
+
+1. Insira os valores 10, 5, 8, 20, 15 em uma lista utilizando a função lst_insere_ordenado.
+   - Imprima o resultado para verificar se a lista foi construída de forma crescente.
+
+2. Crie um programa que leia 10 números inteiros do usuário e insira-os na lista de forma ordenada usando lst_insere_ordenado.
+   - Ao final, imprima a lista.
+
+3. Teste a função lst_retira removendo o primeiro elemento da lista.
+   - Insira os valores 1, 2, 3, 4 e remova o valor 1.
+
+4. Teste a função lst_retira removendo um elemento do meio da lista.
+   - Insira os valores 1, 2, 3, 4 e remova o valor 3.
+
+5. Teste a função lst_retira removendo o último elemento da lista.
+   - Insira os valores 1, 2, 3, 4 e remova o valor 4.
+
+6. Teste a função lst_retira removendo um valor que não está presente na lista.
+   - Insira os valores 1, 2, 3, 4 e tente remover o valor 99.
+   - O programa deve manter a lista inalterada.
+
+7. Implemente uma função lst_retira_todos(Lista* l, int v) que remova todas as ocorrências do valor v da lista.
+   - Teste-a em uma lista com valores repetidos, como: 1, 2, 2, 3, 2, 4.
+
+8. Modifique o programa principal para inserir elementos de forma ordenada e, em seguida, remover todos os elementos pares da lista.
+
+9. Crie uma função lst_remove_maior(Lista* l) que remova da lista o maior valor encontrado.
+   - Teste-a com listas diferentes.
+
+10. Implemente uma função lst_remove_intervalo(Lista* l, int min, int max) que remova todos os elementos cujos valores estejam dentro do intervalo [min, max].
