@@ -1,0 +1,6 @@
+Aula 17 - Lista de Exercícios
+Tema: Listas Simplesmente Encadeadas em C
+
+1) Faça um lista de registros de estudantes do IFCE que irão participar do
+JIFs. Esta lista deve conter nome, telefone e modalidade do atleta.
+Cada atleta pertence a apenas uma modalidade.
