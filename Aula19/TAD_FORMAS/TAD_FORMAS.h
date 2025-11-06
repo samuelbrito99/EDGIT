@@ -38,6 +38,7 @@
     float lsthet_calc_area(void* info, Tipo geometria);
     float lsthet_area_total(Listahet* l);
     int lsthet_conta_tipo(Listahet* l, Tipo geometria);
+    float lsthet_area_tipo(Listahet* l, Tipo geometria);
 
 
     Listahet* lsthet_insere(Listahet* l, Tipo geometria);
